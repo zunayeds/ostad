@@ -3,6 +3,7 @@
 #include <cmath>
 using namespace std;
 
+// Task 1
 string getShuffledString(string s, int* indices) {
   string result = s;
   
@@ -16,6 +17,7 @@ string getShuffledString(string s, int* indices) {
   // Space complexity = O(1)
 }
 
+// Task 2
 long getHashValue(string s) {
   long result = 0;
   int length = s.length();
